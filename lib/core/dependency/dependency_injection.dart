@@ -1,0 +1,15 @@
+import 'package:get/get.dart';
+class DependencyInjection extends Bindings {
+  @override
+  void dependencies() {
+    ///==========================Default Custom Controller ==================
+    // Get.lazyPut(() => ProfileController(), fenix: true);
+    // Get.lazyPut(() => EventController(), fenix: true);
+    // Get.lazyPut(() => SocialController(), fenix: true);
+    // Get.lazyPut(() => HomeController(), fenix: true);
+
+    ///==========================DM Part  Controller ==================
+    // Get.lazyPut(() => DmSocialController(), fenix: true);
+
+  }
+}
